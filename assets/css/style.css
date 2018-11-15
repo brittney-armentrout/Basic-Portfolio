@@ -1,0 +1,83 @@
+/**
+ * Basic Portfolio
+ **/
+
+ * {
+    box-sizing: border-box;
+    text-decoration: none;
+ }
+
+body {
+    margin: 0;
+    background: #777;
+ }
+
+.Navbar {
+    background: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Georgia', Times, serif;
+    margin: auto;
+    padding: 25px;
+    text-align: center;  
+ }
+
+#name {
+     background: #4aaaa5;
+     color: white;
+     margin: 0;
+     margin-top: 0;
+     padding: 20px;
+     font-size: 24px;
+     float: left;
+ }
+
+#menu {
+    display: inline;
+    list-style: none;
+    color: #777777;
+}
+
+li {
+    float: right;
+ }
+
+.Big {
+    clear: both;
+    width: 100%;
+    margin: auto;
+    background-image: url("../images/folk-pattern.png");
+}
+
+header {
+   color: #4aaaa5; 
+   font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+.Bio {
+    padding: 25px 85px 300px 85px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    width: 75%;
+    margin: auto;
+    height: 500px;
+    line-height: 1.6;
+}
+
+#self {
+    float: left;
+    height: 250px;
+    weight: 250px;
+    padding: 10px;
+    margin-right : 15px;
+    
+}
+
+footer {
+    clear: both;
+    background: #666666;
+    color: #777777;
+    border-top: 4px solid #4aaaa5;
+    text-align: center;
+    height: 75px;
+}
